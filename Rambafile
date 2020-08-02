@@ -1,0 +1,20 @@
+### Headers settings
+company: LambdaTeam
+
+### Xcode project settings
+project_name: SberOnline
+xcodeproj_path: SberOnline.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: SberOnline
+
+# The file path for new modules
+project_file_path: SberOnline/Modules
+
+# The Xcode group path to new modules
+project_group_path: SberOnline/Modules
+
+### Templates
+templates:
+- {name: 'MVP', local: 'Templates/MVP'}
