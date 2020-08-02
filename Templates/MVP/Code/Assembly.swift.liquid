@@ -1,0 +1,22 @@
+import UIKit
+
+final class {{ module_info.name }}Assembly: Assembly {
+
+    struct Model: TransitionModel {
+
+    }
+
+    static func assembleModule(with model: TransitionModel) -> UIViewController {
+        guard let model = model as? Model else { fatalError("Incorrect Model") }
+
+        let view = {{ module_info.name }}Controller()
+        let presenter = {{ module_info.name }}Presenter()
+        let router = {{ module_info.name }}Router(view: view)
+
+        view.presenter = presenter
+        presenter.view = view
+        presenter.router = router
+
+        return view
+    }
+}

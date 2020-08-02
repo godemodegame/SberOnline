@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nibless",
+        "repositoryURL": "https://github.com/godemodegame/Nibless.git",
+        "state": {
+          "branch": "master",
+          "revision": "2fca2c7f28feae17e757f89d3fcfae30b1cab4be",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,29 @@
+import UIKit
+
+final class {{ module_info.name }}Controller: UIViewController, ViewSpecificController {
+
+    // MARK: - AssociatedType
+
+    typealias RootView = {{ module_info.name }}View
+
+    // MARK: - Private Properties
+
+    var presenter: {{ module_info.name }}ViewOutput?
+
+    // MARK: - Lifecycle
+
+    override func loadView() {
+        view = {{ module_info.name }}View()
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        presenter?.viewDidLoad()
+    }
+}
+
+// MARK: - {{ module_info.name }}ViewInput
+
+extension {{ module_info.name }}Controller: {{ module_info.name }}ViewInput {
+
+}

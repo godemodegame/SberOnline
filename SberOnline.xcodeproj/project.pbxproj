@@ -34,6 +34,7 @@
 		C146759524D621C80008B268 /* ReviewApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146759424D621C80008B268 /* ReviewApi.swift */; };
 		C146759924D627710008B268 /* ReviewsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146759824D627710008B268 /* ReviewsTableViewDelegate.swift */; };
 		C146759B24D6282F0008B268 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146759A24D6282F0008B268 /* TableViewDataSource.swift */; };
+		C148999524D6B84800E39D93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C148999424D6B84800E39D93 /* README.md */; };
 		C170D97224D5DBC800376F2A /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170D97124D5DBC800376F2A /* BarChart.swift */; };
 		C170D97424D5E09300376F2A /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170D97324D5E09300376F2A /* Bar.swift */; };
 		C1AEF82F24D46D79009FDC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AEF82E24D46D79009FDC80 /* AppDelegate.swift */; };
@@ -102,6 +103,7 @@
 		C146759424D621C80008B268 /* ReviewApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewApi.swift; sourceTree = "<group>"; };
 		C146759824D627710008B268 /* ReviewsTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewDelegate.swift; sourceTree = "<group>"; };
 		C146759A24D6282F0008B268 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		C148999424D6B84800E39D93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C170D97124D5DBC800376F2A /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		C170D97324D5E09300376F2A /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		C1AEF82B24D46D79009FDC80 /* SberOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SberOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +233,7 @@
 		C1AEF82224D46D79009FDC80 = {
 			isa = PBXGroup;
 			children = (
+				C148999424D6B84800E39D93 /* README.md */,
 				C1AEF82D24D46D79009FDC80 /* SberOnline */,
 				C1AEF82C24D46D79009FDC80 /* Products */,
 			);
@@ -454,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C148999524D6B84800E39D93 /* README.md in Resources */,
 				C1AEF83B24D46D7D009FDC80 /* LaunchScreen.storyboard in Resources */,
 				C1AEF83824D46D7D009FDC80 /* Assets.xcassets in Resources */,
 			);

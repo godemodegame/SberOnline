@@ -1,0 +1,20 @@
+protocol {{ module_info.name }}RouterInput: AnyObject {
+
+}
+
+final class {{ module_info.name }}Router {
+
+    // MARK: - Private properties
+
+    private weak var view: ModuleTransitionHandler?
+
+    // MARK: - Init
+
+    init(view: ModuleTransitionHandler) {
+        self.view = view
+    }
+}
+
+extension {{ module_info.name }}Router: {{ module_info.name }}RouterInput {
+
+}

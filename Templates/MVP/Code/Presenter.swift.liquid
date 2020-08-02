@@ -1,0 +1,16 @@
+protocol {{ module_info.name }}ViewOutput: ViewOutput {
+
+}
+
+final class {{ module_info.name }}Presenter: {{ module_info.name }}ViewOutput {
+
+    weak var view: {{ module_info.name }}ViewInput?
+    var router: {{ module_info.name }}RouterInput?
+
+    // MARK: - {{ module_info.name }}ViewOutput
+
+}
+
+protocol {{ module_info.name }}ViewInput: AnyObject {
+
+}
